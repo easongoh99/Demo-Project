@@ -8,7 +8,7 @@ def hello():
 
 @app.route("/new")
 def new():
-    return "New Hello World DevOps Project Test"
+    return "Running CI Pipeline"
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
